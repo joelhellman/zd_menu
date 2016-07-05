@@ -1,0 +1,77 @@
+<!--select interactions -->
+<h2>Select interactions</h2>
+<div class="row-fluid">
+    <div class="span12">
+    <h3>zd-menu handlebars</h3>
+        <!-- no way to set selected or class? -->
+    <div class="mySelectHdbs">{{zd-menu options type="combo_select" }}</div>
+    <button class="btn" data-action-hdbs-select-set>Set select value to bar</button>
+    <button class="btn" data-action-hdbs-select-get>Get select value</button>
+    </div>
+</div>
+
+<div class="row-fluid">
+    <div class="span12">
+    <h3>zd-menu html</h3>
+    <select class="mySelectHtml" data-zd-type="combo_select_menu">
+        <option value="foo">FOO</option>
+        <option selected value="bar">BAR</option>
+    </select>
+    <button class="btn" data-action-html-select-set>Set select value to foo</button>
+    <button class="btn" data-action-html-select-get>Get select value</button>
+    </div>
+</div>
+
+<!--default  lists-->
+<h2>Select types</h2>
+<div class="row-fluid">
+    <div class="span12">
+        <h3>Default non-zd</h3>
+        <select>
+            <option>Slower</option>
+            <option>Slow</option>
+            <option selected="selected">Medium</option>
+            <option>Fast</option>
+            <option>Faster</option>
+        </select>
+    </div>
+</div><br>
+<!--Zendesk style select menu-->
+<div class="row-fluid">
+    <div class="span12">
+        <h3>zd-type=select_menu</h3>
+        <select data-zd-type="select_menu">
+            <option>Slower</option>
+            <option>Slow</option>
+            <option selected="selected">Medium</option>
+            <option>Fast</option>
+            <option>Faster</option>
+        </select>
+    </div>
+</div><br>
+<!--Zendesk style select menu with search -->
+<div class="row-fluid">
+    <div class="span12">
+        <h3>zd-type=combo_select_menu</h3>
+        <select data-zd-type="combo_select_menu">
+            <option>Slower</option>
+            <option>Slow</option>
+            <option selected="selected">Medium</option>
+            <option>Fast</option>
+            <option>Faster</option>
+        </select>
+    </div>
+</div><br>
+<!--Zendesk style tagger menu -->
+<div class="row-fluid">
+    <div class="span12">
+        <h3>zd-type=tag_menu</h3>
+        <select data-zd-type="tag_menu">
+            <option>Slower</option>
+            <option>Slow</option>
+            <option selected="selected">Medium</option>
+            <option>Fast</option>
+            <option>Faster</option>
+        </select>
+    </div>
+</div>
