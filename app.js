@@ -19,13 +19,13 @@
     },
 
     onBtnSetHdbsSelect: function() {
-      this.$('.mySelectHdbs > .zd-combo-selectmenu').zdComboSelectMenu('value', 'bar');
+      this.$('.mySelectHdbs > .zd-combo-selectmenu').zdComboSelectMenu('setValue', 'bar');
     },
     onBtnGetHdbsSelect: function() {
       console.log('Handlebar select value is ', this.$('.mySelectHdbs > .zd-combo-selectmenu').zdComboSelectMenu('value'));
     },
     onBtnSetHtmlSelect: function() {
-      this.$('.mySelectHtml').zdComboSelectMenu('value', 'foo');
+      this.$('.mySelectHtml').zdComboSelectMenu('setValue', 'foo');
     },
     onBtnGetHtmlSelect: function() {
       console.log('Html select value ', this.$('.mySelectHtml').zdComboSelectMenu('value'));
