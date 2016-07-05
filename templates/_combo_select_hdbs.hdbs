@@ -1,0 +1,3 @@
+<div class="myAddedSelectHdbs">
+    {{zd-menu options type="combo_select" }}
+</div>

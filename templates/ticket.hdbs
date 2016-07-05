@@ -22,6 +22,18 @@
     </div>
 </div>
 
+<div class="row-fluid">
+    <h3>Add rendered html template</h3>
+    <button class="btn" data-action-add-html-template>Add html template</button>
+    <div class="span12 add-html-template-wrapper"></div>
+</div>
+
+<div class="row-fluid">
+    <h3>Add rendered hdbs template</h3>
+    <button class="btn" data-action-add-hdbs-template>Add hdbs template</button>
+    <div class="span12 add-hdbs-template-wrapper"></div>
+</div>
+
 <!--default  lists-->
 <h2>Select types</h2>
 <div class="row-fluid">

@@ -1,0 +1,4 @@
+<select data-zd-type="select_menu">
+    <option value="foo">Foo</option>
+    <option value="bar" selected>Bar</option>
+</select>
