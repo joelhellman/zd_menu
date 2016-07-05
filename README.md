@@ -1,14 +1,4 @@
-# App name
+# Testing zd-Menu components
 
-[brief description of the app]
+Test app demonstrating how zd- ui components can be used (unsupported feature).
 
-### The following information is displayed:
-
-* info1
-* info2
-* info3
-
-Please submit bug reports to [Insert Link](). Pull requests are welcome.
-
-### Screenshot(s):
-[put your screenshots down here.]
