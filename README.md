@@ -14,7 +14,7 @@ Put the data-zd-type attribute on a select.
 Here are some types I have tested. 
 
 * combo_select_menu - a combobox that can be typed/searched in
-* combo_select - regular combobox
+* combo_menu - regular combobox
 * tag_menu - select that let's you add tags similar to the system 'tags' field
 
 #### Example
