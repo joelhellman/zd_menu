@@ -14,7 +14,7 @@ Put the data-zd-type attribute on a select.
 Here are some types I have tested. 
 
 * combo_select_menu - a combobox that can be typed/searched in
-* combo_select_menu - regular combobox
+* combo_select - regular combobox
 * tag_menu - select that let's you add tags similar to the system 'tags' field
 
 #### Example
@@ -80,8 +80,8 @@ The zd-menu components are initialized with JavaScript. Given:
 ```
 
 It seems to work like this:
-* all data-zd-type seems to auto-initialize when this.switchTo('template') is called
-* but if you dynamically insert a component like `this.$('.container').html(this.renderTemplate('comboSelect.hdbs'))`, and don't use this.switchTo to render that template, you must initialize the components manually.
+* data-zd-type selects seems to auto-initialize when this.switchTo('template') is called. However, in some cases this may not work (TBD)
+* if you dynamically insert a component like `this.$('.container').html(this.renderTemplate('comboSelect.hdbs'))`, and don't use this.switchTo to render that template, or if the switchTo doesn't initialize components, you must initialize the components manually.
 
 **You can target each select individually:**
 
